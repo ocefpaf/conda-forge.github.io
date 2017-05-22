@@ -34,6 +34,7 @@ pinned = {
           'fontconfig': 'fontconfig 2.12.*',
           'freetype': 'freetype 2.7|2.7.*',
           'geos': 'geos 3.5.1',
+          'gdal': 'gdal 2.2.*',
           'giflib': 'giflib 5.1.*',
           'glib': 'glib 2.51.*',
           'gmp': 'gmp >=5.0.1,<7',
