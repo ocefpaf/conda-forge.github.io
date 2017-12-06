@@ -95,7 +95,7 @@ pinned = {
           'sox': 'sox 14.4.2',  # NA
           'sqlite': 'sqlite 3.20.*',  # 3.20.1
           'sundials': 'sundials 2.7.*',  # NA
-          'tk': 'tk 8.5.*',  # 8.5.18
+          'tk': 'tk 8.6.*',  # 8.6.7
           'vlfeat': 'vlfeat 0.9.20',  # NA
           'xerces-c': 'xerces-c 3.2.0'  # 3.2.0
           'xz': 'xz 5.2.*',  # 5.2.2
