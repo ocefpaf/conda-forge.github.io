@@ -47,7 +47,7 @@ pinned = {
           'ffmpeg': 'ffmpeg >=3.2.3,<3.2.6',  # NA
           'flann': 'flann 1.9.1',  # NA
           'fontconfig': 'fontconfig 2.12.*',  # 2.12.4
-          'freetype': 'freetype 2.8.1',  # 2.8
+          'freetype': 'freetype 2.8.*',  # 2.8
           'gdal': 'gdal 2.2.*',  # 2.2.0
           'geos': 'geos 3.6.2',  # 3.5.0
           'giflib': 'giflib 5.1.*',  # NA
