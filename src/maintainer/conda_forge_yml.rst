@@ -25,7 +25,6 @@ Top-level fields
 * azure
 * build_platform
 * bot
-* channels
 * circle
 * compiler_stack
 * docker
@@ -106,26 +105,6 @@ build platform using cross-compiling.
 
     build_platform:
       osx_64: linux_64
-
-channels
---------
-This represents the channels to grab packages from during builds and
-which channels/labels to push to on anaconda.org after a package
-has been built.  The ``channels`` variable is a mapping with
-``sources`` and ``targets``, as follows:
-
-.. code-block:: yaml
-
-    channels:
-      # sources selects the channels to pull packages from, in order.
-      sources:
-        - conda-forge
-        - defaults
-      # targets is a list of 2-lists, where the first element is the
-      # channel to push to and the second element is the label on that channel
-      targets:
-        - ["conda-forge", "main"]
-
 
 circle
 --------
